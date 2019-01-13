@@ -1,0 +1,11 @@
+.sider {
+    background: #c2b4a9;
+    padding: 80px 30px;
+}
+
+.icon-grid {
+    display: grid;
+    grid-template-columns: 62px 62px;
+    grid-gap: 40px;
+    justify-content: center;
+}

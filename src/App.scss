@@ -1,0 +1,21 @@
+.App {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+h1 {
+    font-size: 48px;
+    color: #de5e38;
+    font-family: "Bungee", cursive;
+    text-shadow: -15px 10px 0 #e6e3ca;
+}
+
+h3 {
+    font-size: 14px;
+    font-weight: bold;
+    text-align: left;
+    &.red {
+        color: #de5e38;
+    }
+}
