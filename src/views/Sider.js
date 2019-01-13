@@ -61,8 +61,11 @@ export default class Sider extends Component {
                     </div>
                 </SiderItem>
                 <SiderItem heading="GET IN CONTACT">
-                    <p className="email-link">
-                        <a href="mailto:adam@adamth.com">adam@adamth.com</a>
+                    <p className="link">
+                        E: <a href="mailto:adam@adamth.com">adam@adamth.com</a>
+                    </p>
+                    <p className="link">
+                        M: <a href="tel:0428804282">0428 804 282</a>
                     </p>
                 </SiderItem>
             </div>
