@@ -29,7 +29,8 @@ export default class Sider extends Component {
                     challenging software development role
                 </SiderItem>
                 <SiderItem heading="TECHNICAL SKILLS">
-                    <p>Frontend: React, Redux, Vue Backend: Django, Express</p>
+                    <p>Frontend: React, Redux, Vue</p>
+                    <p>Backend: Django, Express</p>
                     <p>Database: Postgres, MySQL </p>
                     <p>Languages: JavaScript, Python, Swift</p>
                 </SiderItem>

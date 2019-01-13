@@ -20,7 +20,7 @@ export default class Content extends Component {
                     <ContentItem
                         heading="Web Developer"
                         subheading="Alliance Software | 2018 - Present"
-                        tagline="Alliance software are a world-class agile software development agency specialising in complex web apps."
+                        tagline="Alliance Software are a world-class agile software development agency specialising in complex web apps."
                     >
                         <ProjectItem>
                             <ul>
