@@ -69,7 +69,7 @@ export default class Content extends Component {
                     </ContentItem>
                     <ContentItem
                         heading="Systems Analyst"
-                        subheading="Mind Austrlia | 2013 - 2018"
+                        subheading="Mind Australia | 2013 - 2018"
                         tagline="Mind Australia is one of the country's leading community-managed specialist mental health service providers."
                     >
                         <ProjectItem
@@ -89,8 +89,8 @@ export default class Content extends Component {
                             the human resource system to automatically populate
                             manager information. The database schema is managed
                             using migrations which provides version control for
-                            the database. The solution has become a business
-                            critical tool for a number of staff members.
+                            the database. The solution has become a critical
+                            business tool for a number of staff members.
                         </ProjectItem>
                         <ProjectItem
                             product="An online service directory to manage over 180 service delivery addresses"
