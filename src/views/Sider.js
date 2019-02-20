@@ -36,7 +36,7 @@ export default class Sider extends Component {
                 </SiderItem>
                 <SiderItem heading="PROFESSIONAL SKILLS">
                     <p>
-                        Experienced working an an agile software development
+                        Experienced working in an agile software development
                         environment.
                     </p>
                     <p>
