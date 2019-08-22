@@ -158,7 +158,7 @@ export default class Content extends Component {
                         </ProjectItem>
                     </ContentItem>
                     <h3 className="red">EDUCATION</h3>
-                    <ContentItem heading="Deakin University" subheading="Bachelor of Information Technology" hideRule>
+                    <ContentItem heading="Deakin University" subheading="Bachelor of Information Technology | 2015" hideRule>
                         <ProjectItem>
                             <ul>
                                 <li>Graduated with a high distinction average</li>
@@ -170,7 +170,7 @@ export default class Content extends Component {
                     </ContentItem>
                     <ContentItem
                         heading="Box Hill TAFE"
-                        subheading="Advanced Diploma of Computer Systems Engineering"
+                        subheading="Advanced Diploma of Computer Systems Engineering | 2010"
                         hideRule
                     />
                     <h3 className="red">OTHER INTERESTS</h3>
