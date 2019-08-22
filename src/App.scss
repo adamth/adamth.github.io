@@ -12,6 +12,10 @@ h1 {
     color: #de5e38;
     font-family: "Bungee", cursive;
     text-shadow: -15px 10px 0 #e6e3ca;
+
+    @media print {
+        font-size: 28px;
+    }
 }
 
 h3 {
@@ -21,4 +25,12 @@ h3 {
     &.red {
         color: #de5e38;
     }
+}
+
+@media all {
+	.page-break	{ display: none; }
+}
+
+@media print {
+	.page-break	{ display: block; page-break-before: always; }
 }

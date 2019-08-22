@@ -1,11 +1,17 @@
 .content-item {
     margin-bottom: 60px;
+    @media print {
+        margin-bottom: 30px;
+    }
     p {
         font-style: italic;
     }
     hr {
         margin-top: 60px;
         max-width: 300px;
+        @media print {
+            margin-top: 30px;
+        }
     }
 }
 

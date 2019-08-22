@@ -5,10 +5,16 @@
     @media only screen and (max-width: 600px) {
         order: 1;
     }
+    @media print {
+        padding: 20px;
+    }
 }
 
 .sub-heading {
     margin-bottom: 80px;
+    @media print {
+        margin-bottom: 30px;
+    }
     p {
         background: #de5e38;
         padding: 10px;

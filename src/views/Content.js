@@ -7,11 +7,7 @@ export default class Content extends Component {
     render() {
         return (
             <div className="content">
-                <h1>
-                    Adam
-                    <br />
-                    Thompson
-                </h1>
+                <h1>Adam Thompson</h1>
                 <div className="sub-heading">
                     <p>Web Developer</p>
                 </div>
@@ -20,50 +16,65 @@ export default class Content extends Component {
                     <ContentItem
                         heading="Web Developer"
                         subheading="Alliance Software | 2018 - Present"
-                        tagline="Alliance Software are a world-class agile software development agency specialising in complex web apps."
+                        tagline="Alliance Software is a world-class agile software development agency specialising in complex web apps."
+                        pageBreak
                     >
-                        <ProjectItem>
+                        <ProjectItem heading="Project Management">
+                            <ul>
+                                <li>Work as the sole developer on projects or as part of a larger development team</li>
+                                <li>
+                                    Communicate effectively with clients to establish project requirements and maintain
+                                    excellent relationships
+                                </li>
+                                <li>Scope and estimate tasks as part of the agile project management process</li>
+                            </ul>
+                        </ProjectItem>
+                        <ProjectItem heading="Development">
+                            <ul>
+                                <li>Conduct code reviews ensuring a high degree of quality is maintained</li>
+                                <li>Manage source code using git</li>
+                                <li>Work with Django to create complex, scalable web servers</li>
+                                <li>
+                                    Work with React and companion libraries to build modern, high performance user
+                                    interfaces
+                                </li>
+                                <li>Deliver native iOS apps using Swift and XCode</li>
+                            </ul>
+                        </ProjectItem>
+                        <ProjectItem heading="Design">
+                            <ul>
+                                <li>Logo and branding design for both internal and external clients</li>
+                                <li>Work closely with the design team to deliver pixel perfect frontend products</li>
+                                <li>Use libraries like p5.js to create bespoke interactive visual components</li>
+                                <li>Design user interfaces as required with keen attention to detail</li>
+                            </ul>
+                        </ProjectItem>
+                        <ProjectItem heading="Key Achievements">
                             <ul>
                                 <li>
-                                    Full stack web developer responsible for
-                                    numerous client projects, either as the sole
-                                    developer or as part of a team.
+                                    Consistently achieve over 100% on all key performance targets, ensuring projects are
+                                    delivered on time
                                 </li>
                                 <li>
-                                    Provide maintenance to established products.
+                                    Deliver technical presentations to the company, sharing my unique experience and
+                                    skill set with my peers and showing new opportunities that might not have otherwise
+                                    been visible
                                 </li>
-                                <li>
-                                    Develop new products including selecting
-                                    libraries and technical direction.
-                                </li>
-                                <li>Logo and UI design.</li>
-                                <li>
-                                    Develop native apps for iOS and Android
-                                    based on existing web products to enable
-                                    more seamless use while in poor network
-                                    coverage areas.
-                                </li>
-                                <li>
-                                    Work directly with clients on challenging
-                                    projects to ensure their requirements are
-                                    met.
-                                </li>
-                                <li>Manage all source code using git.</li>
-                                <li>
-                                    Provide code reviews on colleagues work.
-                                </li>
-                                <li>
-                                    Work with multiple languages including
-                                    JavaScript, Python and Swift.
-                                </li>
-                                <li>
-                                    Investigate the latest web development
-                                    frameworks and tools (including GraphQL) to
-                                    update the organisation standard development
-                                    stack, ensuring products are able to be
-                                    developed quickly and to the latest
-                                    standards.
-                                </li>
+                            </ul>
+                        </ProjectItem>
+                    </ContentItem>
+                    <ContentItem
+                        heading="Founder and Developer"
+                        subheading="Autopilot Digital | 2017 - present"
+                        tagline="Autopilot Digital is a small software development startup specialising in mobile apps"
+                    >
+                        <ProjectItem product="Logbookr">
+                            Logbookr is a beautiful vehicle logbooking app for iOS built from the ground up to deliver a
+                            reliable vehicle management process and streamlined user experience.
+                            <ul>
+                                <li>Designed product logo</li>
+                                <li>Built reporting backend using firebase cloud functions</li>
+                                <li>App built using Swift and XCode</li>
                             </ul>
                         </ProjectItem>
                     </ContentItem>
@@ -71,100 +82,48 @@ export default class Content extends Component {
                         heading="Systems Analyst"
                         subheading="Mind Australia | 2013 - 2018"
                         tagline="Mind Australia is one of the country's leading community-managed specialist mental health service providers."
+                        pageBreak
                     >
-                        <ProjectItem
-                            product="An online tool to allow clients to sign on a touch screen"
-                            backend="Express"
-                            Frontend="React, Redux"
-                            database="MS-SQL, MongoDB"
-                        >
-                            Mind Australia delivers service from over 180
-                            different addresses across Australia and had no
-                            central repository of this information. I designed
-                            and developed an online solution that allowed staff
-                            to search, filter and update service information.
-                            Features include editable metadata for each site,
-                            google maps integration, site photos and manager
-                            information. The system is tightly integrated with
-                            the human resource system to automatically populate
-                            manager information. The database schema is managed
-                            using migrations which provides version control for
-                            the database. The solution has become a critical
-                            business tool for a number of staff members.
+                        <ProjectItem>
+                            As the sole developer at Mind Australia I was responsible for the management, design and
+                            delivery of a wide range of software projects.
                         </ProjectItem>
-                        <ProjectItem
-                            product="An online service directory to manage over 180 service delivery addresses"
-                            backend="IIS"
-                            frontend="ASP.net"
-                            database="MS-SQL"
-                        >
-                            Mind Australia delivers service from over 180
-                            different addresses across Australia and had no
-                            central repository of this information. I designed
-                            and developed an online solution that allowed staff
-                            to search, filter and update service information.
-                            Features include editable metadata for each site,
-                            google maps integration, site photos and manager
-                            information. The system is tightly integrated with
-                            the human resource system to automatically populate
-                            manager information. The database schema is managed
-                            using migrations which provides version control for
-                            the database. The solution has become a business
-                            critical tool for a number of staff members.
-                        </ProjectItem>
-                        <ProjectItem product="QlikView reporting dashboards">
+                        <ProjectItem>
                             <ul>
                                 <li>
-                                    Designed and developed over 20 different
-                                    reporting dashboards using QlikView.
+                                    Design and build a telecommunications asset register to manage over 700 mobile
+                                    devices resulting in increased visibility into device usage and ultimately saving
+                                    over $80k annually in mobile bills.
                                 </li>
                                 <li>
-                                    Responsible for requirement gathering, data
-                                    modeling, report design and implementation.
+                                    Design and build a web app to allow clients to sign on a touch screen, reducing the
+                                    need to paper forms and further streamlining the service delivery process.
                                 </li>
                                 <li>
-                                    Developed a number of automated static
-                                    reports leveraging the work done in
-                                    QlikView, including monthly individual phone
-                                    usage reports sent to over 500 staff
-                                    members.
+                                    Design and build comprehensive reporting dashboards to be used by all levels of
+                                    management, unlocking hidden value previously locked in the rich data sets of
+                                    various business systems.
                                 </li>
                                 <li>
-                                    Since starting, QlikView reporting has
-                                    become an integral part of Mind Australia's
-                                    business intelligence strategy and has set
-                                    the benchmark for business intelligence in
-                                    the not for profit sector.
+                                    Numerous other web app projects to help increase efficiency of business process and
+                                    accuracy of government reporting, ensuring continued government funding and helping
+                                    secure additional funding.
                                 </li>
                             </ul>
                         </ProjectItem>
-                        <ProjectItem product="Data Warehouse">
-                            Rebuilt existing data warehouse solution from the
-                            ground up to break the dependence on a third-party
-                            plug-in. This allowed the upgrade or decommissioning
-                            of multiple legacy servers, as well as overall
-                            improved performance of the data warehouse. Utilised
-                            Microsoft SSIS packages, SQL scripts and C#.
-                        </ProjectItem>
-                        <ProjectItem>
-                            <p>Miscellaneous</p>
+                        <ProjectItem heading="Key Achievements">
                             <ul>
                                 <li>
-                                    Invited to be on discussion panel at Qlik
-                                    "Visualise your world" conference in 2015 as
-                                    a subject matter expert.
+                                    Invited to be on discussion panel at Qlik "Visualise your world" conference in 2015
+                                    as a subject matter expert.
                                 </li>
                                 <li>
-                                    Implemented git version control for all
-                                    software projects (git lab).
+                                    Implemented git version control for all software projects (GitLab) enabling proper
+                                    management of software projects and improved security of source code.
                                 </li>
                                 <li>
-                                    Conducted QlikView training sessions for
-                                    staff.
-                                </li>
-                                <li>
-                                    Provided support for terminal service
-                                    applications and Citrix.
+                                    Conducted QlikView training sessions for staff resulting a strong uptake of data
+                                    reporting tools from all levels of management.
                                 </li>
                             </ul>
                         </ProjectItem>
@@ -173,32 +132,25 @@ export default class Content extends Component {
                         heading="Senior Service Desk Analyst"
                         subheading="Wesley Mission Victoria | 2010 - 2013"
                         tagline="Wesley Mission cares for and supports disadvantaged and vulnerable Victorians through a range of community-based services."
-                        hiderule
+                        hideRule
                     >
                         <ProjectItem>
                             <ul>
+                                <li>Provided on site and phone support for remote clients.</li>
                                 <li>
-                                    Provided on site and phone support for
-                                    remote clients.
-                                </li>
-                                <li>
-                                    Configure and troubleshoot network equipment
-                                    ranging from Cisco routers and switches to
-                                    consumer level ADSL modems.
+                                    Configure and troubleshoot network equipment ranging from Cisco routers and switches
+                                    to consumer level ADSL modems.
                                 </li>
                                 <li>
                                     Work in a team on projects including:
                                     <ul>
                                         <li>
-                                            Designing and implementing a VPN
-                                            solution for over 40 residential
-                                            units and other remote sites.
+                                            Designing and implementing a VPN solution for over 40 residential units and
+                                            other remote sites.
                                         </li>
                                         <li>
-                                            Designing and implementing full
-                                            directory structure update impacting
-                                            over 400 full time staff and
-                                            hundreds of volunteers.
+                                            Designing and implementing full directory structure update impacting over
+                                            400 full time staff and hundreds of volunteers.
                                         </li>
                                     </ul>
                                 </li>
@@ -206,19 +158,12 @@ export default class Content extends Component {
                         </ProjectItem>
                     </ContentItem>
                     <h3 className="red">EDUCATION</h3>
-                    <ContentItem
-                        heading="Deakin University"
-                        subheading="Bachelor of Information Technology"
-                        hiderule
-                    >
+                    <ContentItem heading="Deakin University" subheading="Bachelor of Information Technology" hideRule>
                         <ProjectItem>
                             <ul>
+                                <li>Graduated with a high distinction average</li>
                                 <li>
-                                    Graduated with a high distinction average
-                                </li>
-                                <li>
-                                    Selected to be part of the team representing
-                                    Deakin in the Telstra IoT competition
+                                    Selected to be part of the team representing Deakin in the Telstra IoT competition
                                 </li>
                             </ul>
                         </ProjectItem>
@@ -226,36 +171,26 @@ export default class Content extends Component {
                     <ContentItem
                         heading="Box Hill TAFE"
                         subheading="Advanced Diploma of Computer Systems Engineering"
-                        hiderule
+                        hideRule
                     />
                     <h3 className="red">OTHER INTERESTS</h3>
                     <ContentItem>
                         <ProjectItem>
-                            <p>
-                                I have numerous hobbies that I pursue outside of
-                                work.
-                            </p>
+                            <p>I have numerous hobbies that I pursue outside of work</p>
                             <ul>
                                 <li>
-                                    Electronics - developing tools to help with
-                                    my other projects such as a web enabled
-                                    thermostat to help with baking.
+                                    Electronics - developing tools to help with my other projects such as a web enabled
+                                    thermostat to help with baking
                                 </li>
                                 <li>
-                                    Film Photography - I develop and scan my
-                                    film at home and have enjoyed learning how
-                                    the process works.
+                                    Film Photography - I develop and scan my film at home and love learning how the
+                                    process works
                                 </li>
                                 <li>
-                                    Baking - I've recently learnt how to bake
-                                    sourdough bread from scratch. The results
-                                    are always shared with the office!
+                                    Drones - I have built a number of racing and acrobatic drones and have recently been
+                                    exploring the possibilities of autopilot and GPS navigation
                                 </li>
-                                <li>
-                                    Drones - I have built numerous drones from
-                                    racing quadcopters to fixed wing planes.
-                                </li>
-                                <li>Running/Cycling</li>
+                                <li>Various personal software projects at different stages of completion</li>
                             </ul>
                         </ProjectItem>
                     </ContentItem>

@@ -1,8 +1,11 @@
 .sider {
-    background: #c2b4a9;
+    background: #595049;
     padding: 80px 30px;
     @media only screen and (max-width: 600px) {
         order: 2;
+    }
+    @media print {
+        padding: 20px;
     }
 }
 

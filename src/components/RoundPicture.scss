@@ -1,4 +1,10 @@
 .pic-round {
     border-radius: 50%;
     object-fit: cover;
+    width: 210px;
+    height: 210px;
+    @media print {
+        width: 140px;
+        height: 140px;
+    }
 }

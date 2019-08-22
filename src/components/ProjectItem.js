@@ -3,9 +3,14 @@ import "./ProjectItem.scss";
 
 export default class ProjectItem extends Component {
     render() {
-        const { product, backend, frontend, database, children } = this.props;
+        const { product, backend, frontend, database, heading, children } = this.props;
         return (
             <div className="project-item">
+                {heading && (
+                    <h4>
+                        <i>{heading}</i>
+                    </h4>
+                )}
                 {product && (
                     <p>
                         <b>Product: </b>
