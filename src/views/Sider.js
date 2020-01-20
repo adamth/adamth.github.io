@@ -6,6 +6,8 @@ import me from "../img/me.jpg";
 import iconChrome from "../img/icon-chrome.png";
 import iconFigma from "../img/icon-figma.png";
 import iconVSCode from "../img/icon-vs-code.png";
+import iconLogbookr from "../img/icon-logbookr.png";
+import iconDevClock from "../img/icon-dev-clock.png";
 import iconGit from "../img/icon-git.png";
 
 import "./Sider.scss";
@@ -16,13 +18,18 @@ export default class Sider extends Component {
             <div className="sider">
                 <RoundPicture imgSrc={me} />
                 <SiderItem heading="MY BACKGROUND">
-                    5+ years experienced and result oriented web developer with a knack for delivering elegant,
-                    user-friendly software solutions effectively and efficiently. Applied competence in all stages of
-                    the software development life cycle including requirements gathering, infrastructure setup, coding
-                    and testing. Gained proficiency with a number of programming languages and developed in-depth
-                    knowledge of latest technologies as a result of working on numerous complex projects. Handles
-                    complex project management and coordination work very efficiently to deliver results. Looking
-                    forward to applying my diverse skill-set to a challenging software development role
+                    5+ years experienced and result oriented web developer with
+                    a knack for delivering elegant, user-friendly software
+                    solutions effectively and efficiently. Applied competence in
+                    all stages of the software development life cycle including
+                    requirements gathering, infrastructure setup, coding and
+                    testing. Gained proficiency with a number of programming
+                    languages and developed in-depth knowledge of latest
+                    technologies as a result of working on numerous complex
+                    projects. Handles complex project management and
+                    coordination work very efficiently to deliver results.
+                    Looking forward to applying my diverse skill-set to a
+                    challenging software development role
                 </SiderItem>
                 <SiderItem heading="TECHNICAL SKILLS">
                     <div>
@@ -57,11 +64,23 @@ export default class Sider extends Component {
                     </div>
                 </SiderItem>
                 <SiderItem heading="PROFESSIONAL SKILLS">
-                    <p>Experienced working in an agile software development environment.</p>
-                    <p>Able to work effectively as part of a team or independently.</p>
+                    <p>
+                        Experienced working in an agile software development
+                        environment.
+                    </p>
+                    <p>
+                        Able to work effectively as part of a team or
+                        independently.
+                    </p>
                     <p>Strong visual design skills with an eye for detail.</p>
-                    <p>Equally comfortable communicating with technical and non technical stakeholders.</p>
-                    <p>Flexible - able to switch context and work across multiple projects.</p>
+                    <p>
+                        Equally comfortable communicating with technical and non
+                        technical stakeholders.
+                    </p>
+                    <p>
+                        Flexible - able to switch context and work across
+                        multiple projects.
+                    </p>
                 </SiderItem>
                 <SiderItem heading="FAVORITE TOOLS">
                     <div className="icon-grid">
@@ -70,6 +89,28 @@ export default class Sider extends Component {
                         <img src={iconGit} alt="Git" />
                         <img src={iconChrome} alt="Chrome" />
                     </div>
+                </SiderItem>
+                <SiderItem heading="MY PROJECTS">
+                    <a
+                        href="https://devclockapp.com"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <div className="project-link">
+                            <img src={iconDevClock} alt="dev clock" />
+                            <span>Dev Clock</span>
+                        </div>
+                    </a>
+                    <a
+                        href="https://logbookr.com"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <div className="project-link">
+                            <img src={iconLogbookr} alt="logbookr" />
+                            <span>Logbookr</span>
+                        </div>
+                    </a>
                 </SiderItem>
                 <SiderItem heading="GET IN CONTACT">
                     <p className="link">
