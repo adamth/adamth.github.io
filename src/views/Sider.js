@@ -33,15 +33,16 @@ export default class Sider extends Component {
                 </SiderItem>
                 <SiderItem heading="TECHNICAL SKILLS">
                     <div>
-                        <b>Web Technologies & Frameworks</b>
+                        <b>Frontend</b>
                         <ul>
                             <li>React</li>
                             <li>Redux</li>
                             <li>Vue</li>
+                            <li>Flutter</li>
                         </ul>
                     </div>
                     <div>
-                        <b>Web Servers</b>
+                        <b>Backend</b>
                         <ul>
                             <li>Django</li>
                             <li>Express</li>
@@ -60,6 +61,7 @@ export default class Sider extends Component {
                             <li>JavaScript</li>
                             <li>Python</li>
                             <li>Swift</li>
+                            <li>Dart</li>
                         </ul>
                     </div>
                 </SiderItem>
